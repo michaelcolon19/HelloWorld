@@ -19,7 +19,8 @@ public class TextController : MonoBehaviour
     {
         if (Input.GetKeyDown("space"))
         {
-            newText.text = "Hello, my name is Michael Colon!"; // replace my name with your actual name, a nickname, or whatever name you prefer to use
+            // replace my name with your actual name, a nickname, or whatever name you prefer to use
+            newText.text = "Hello, my name is Michael Colon!"; 
             newText.fontSize = 38;
         }
 
